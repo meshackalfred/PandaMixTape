@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PandaMixTape
 {
-   abstract class Song
+    class Song
     {
         protected string artist { get; private set; }
         protected string title { get; private set; }
